@@ -1,0 +1,25 @@
+<html>
+<head>
+<link href="{{url_for('static', filename = 'css/css.css')}}" rel="stylesheet">
+<link href="{{url_for('static', filename = 'css/bootstrap.min.css')}}" rel="stylesheet">
+	<title>NLP Project</title>
+</head>
+<body>
+		<div class="container border border-3 ">
+
+			<form action="/" method="POST"> 
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">Enter a text or an article below</label>
+					<textarea class="form-control" placeholder="Leave a text here" id="floatingTextarea" name="text_to_do"></textarea>
+
+					<br>
+					<button type="submit" class="btn btn-primary" name="submit_button" value="Do">Submit</button>
+
+					<div id="emailHelp" class="form-text">Check if your text makes people anxious.</div>
+				</div>
+			</form>
+			<p> {{ value }}</p>
+		</div>
+</body>
+<!-- <script src="{{url_for('static', filename='somejavascriptfile.js')}}"></script> -->
+</html>

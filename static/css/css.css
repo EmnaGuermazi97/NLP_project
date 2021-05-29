@@ -1,0 +1,25 @@
+body {
+    background-image: url("../img/covid.jpg") !important;
+    /* background-color: #f7f8fc !important; */
+
+}
+
+.container{
+    background-color:  #ffffff9c !important;
+
+    margin : 5% !important;
+    padding: 5% !important;
+    border-radius: 15px !important; 
+    border: #607dff !important;
+    
+
+}
+/* .container, .form-control{
+    background-color:rgba(255, 255, 255, 0.9) !important; 
+
+} */
+button {
+    background-color: #607dff !important;
+    border: #607dff !important;
+
+}
